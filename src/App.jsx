@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import TaskForm from './components/TaskForm';
 import TaskItem from './components/TaskItem';
+import BMICalculator from './components/BMICalculator';
 import './App.css';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           />
         ))}
       </ul>
+      <BMICalculator />
     </div>
   );
 }

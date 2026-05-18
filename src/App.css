@@ -24,7 +24,7 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  background-color: #4caf50;
+  background-color: #3e673f;
   color: white;
   font-size: 14px;
 }
@@ -48,5 +48,44 @@ ul {
 }
 
 .task-item button {
-  background-color: #e53935;
+  background-color: #7c0e0c;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.bmi-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border-top: 2px solid #eee;
+}
+
+.bmi-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bmi-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bmi-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 16px;
+}
+
+.bmi-result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  padding: 16px;
+  background: #f5f5f5;
+  border-radius: 8px;
 }
